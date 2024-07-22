@@ -1,6 +1,7 @@
 const weaponData = {
   "CAR-4": {
     Class: "Assault Rifle",
+    name:"CAR-4",
     DamageDistanceArray: [
       {
         Damage: 30.4,
@@ -33,7 +34,10 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
-    AmmoLoaded: 30,
+    AmmoLoaded:30,
+    EAmmoLoaded:45,
+    CAmmoLoaded:20,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 300,
     AmmoInventory: 120,
     AmmoPickup: {
@@ -168,6 +172,7 @@ const weaponData = {
   },
   "KU-59": {
     Class: "Assault Rifle",
+    name:"KU-59",
     DamageDistanceArray: [
       {
         Damage: 40.2,
@@ -208,7 +213,10 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
-    AmmoLoaded: 30,
+    AmmoLoaded:30,
+    EAmmoLoaded:45,
+    CAmmoLoaded:20,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 300,
     AmmoInventory: 120,
     AmmoPickup: {
@@ -351,6 +359,7 @@ const weaponData = {
   },
   "Northwest B-9": {
     Class: "Assault Rifle",
+    name:"Northwest B-9",
     DamageDistanceArray: [
       {
         Damage: 28.0,
@@ -383,7 +392,10 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
-    AmmoLoaded: 30,
+    AmmoLoaded:30,
+    EAmmoLoaded:45,
+    CAmmoLoaded:20,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 300,
     AmmoInventory: 120,
     AmmoPickup: {
@@ -521,6 +533,7 @@ const weaponData = {
   },
   "VF-7S": {
     Class: "Assault Rifle",
+    name:"VF-7S",
     DamageDistanceArray: [
       {
         Damage: 36.4,
@@ -557,7 +570,10 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
-    AmmoLoaded: 20,
+    AmmoLoaded:20,
+    EAmmoLoaded:30,
+    CAmmoLoaded:10,
+    QAmmoLoaded:20,
     AmmoInventoryMax: 200,
     AmmoInventory: 80,
     AmmoPickup: {
@@ -702,6 +718,7 @@ const weaponData = {
   },
   "SA A144": {
     Class: "Marksman Rifle",
+    name:"SA A144",
     DamageDistanceArray: [
       {
         Damage: 50.0,
@@ -735,6 +752,8 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 12,
+    EAmmoLoaded:20,
+    QAmmoLoaded:9,
     AmmoInventoryMax: 60,
     AmmoInventory: 36,
     AmmoPickup: {
@@ -869,6 +888,7 @@ const weaponData = {
   },
   "Reinfeld 900S": {
     Class: "Marksman Rifle",
+    name:"Reinfeld 900S",
     DamageDistanceArray: [
       {
         Damage: 160.0,
@@ -898,6 +918,7 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 5,
+    EAmmoLoaded:10,
     AmmoInventoryMax: 50,
     AmmoInventory: 25,
     AmmoPickup: {
@@ -946,6 +967,7 @@ const weaponData = {
   },
   "Mosconi 12 Classic": {
     Class: "Shotgun",
+    name:"Mosconi 12 Classic",
     DamageDistanceArray: [
       {
         Damage: 50.0,
@@ -1052,6 +1074,7 @@ const weaponData = {
   },
   "Reinfeld 880": {
     Class: "Shotgun",
+    name:"Reinfeld 880",
     DamageDistanceArray: [
       {
         Damage: 25.0,
@@ -1168,6 +1191,7 @@ const weaponData = {
   },
   "Ziv Commando": {
     Class: "SMG",
+    name:"Ziv Commando",
     DamageDistanceArray: [
       {
         Damage: 42.0,
@@ -1210,11 +1234,18 @@ const weaponData = {
     ],
     ArmorPenetration: 0.5,
     AmmoLoaded: 25,
+    EAmmoLoaded:32,
+    CAmmoLoaded:20,
+    QAmmoLoaded:25,
     AmmoInventoryMax: 200,
     AmmoInventory: 100,
     AmmoPickup: {
       Min: 9.0,
       Max: 12.0,
+    },
+    QAmmoPickup: {
+      Min: 6.0,
+      Max: 9.0,
     },
     RoundsPerMinute: 1100.0,
     GraphDisplacementList: {
@@ -1345,6 +1376,7 @@ const weaponData = {
   },
   "SG Compact-7": {
     Class: "SMG",
+    name:"SG Compact-7",
     DamageDistanceArray: [
       {
         Damage: 24.0,
@@ -1377,11 +1409,18 @@ const weaponData = {
         Distance: 6000.0,
       },
     ],
-    AmmoLoaded: 20,
+    AmmoLoaded: 30,
+    EAmmoLoaded:40,
+    CAmmoLoaded:20,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 200,
     AmmoPickup: {
       Min: 8.0,
       Max: 10.0,
+    },
+    QAmmoPickup: {
+      Min: 6.0,
+      Max: 9.0,
     },
     ArmorPenetration: 1.25,
     RoundsPerMinute: 960.0,
@@ -1523,6 +1562,7 @@ const weaponData = {
   },
   "FIK PC9": {
     Class: "SMG",
+    name:"FIK PC9",
     DamageDistanceArray: [
       {
         Damage: 32.5,
@@ -1551,11 +1591,18 @@ const weaponData = {
         Distance: 6000.0,
       },
     ],
-    AmmoLoaded: 35,
+    AmmoLoaded: 30,
+    EAmmoLoaded:35,
+    CAmmoLoaded:20,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 200,
     AmmoPickup: {
       Min: 7.0,
       Max: 10.0,
+    },
+    QAmmoPickup: {
+      Min: 6.0,
+      Max: 9.0,
     },
     ArmorPenetration: 0.75,
     RoundsPerMinute: 860.0,
@@ -1699,6 +1746,7 @@ const weaponData = {
   },
   "Signature 40": {
     Class: "Pistol",
+    name:"Signature 40",
     DamageDistanceArray: [
       {
         Damage: 50.0,
@@ -1744,6 +1792,8 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 12,
+    EAmmoLoaded:20,
+    QAmmoLoaded:9,
     AmmoInventoryMax: 60,
     AmmoInventory: 48,
     AmmoPickup: {
@@ -1871,6 +1921,7 @@ const weaponData = {
   },
   "Signature 403": {
     Class: "Pistol",
+    name:"Signature 403",
     DamageDistanceArray: [
       {
         Damage: 50.0,
@@ -1912,6 +1963,8 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 17,
+    EAmmoLoaded:21,
+    QAmmoLoaded:13,
     AmmoInventoryMax: 60,
     AmmoInventory: 48,
     AmmoPickup: {
@@ -2041,6 +2094,7 @@ const weaponData = {
   },
   "SP Model 11": {
     Class: "Pistol",
+    name:"SP Model 11",
     DamageDistanceArray: [
       {
         Damage: 80.0,
@@ -2081,6 +2135,9 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
+    AmmoLoaded:10,
+    EAmmoLoaded:18,
+    QAmmoLoaded:7,
     AmmoInventoryMax: 60,
     AmmoInventory: 48,
     AmmoPickup: {
@@ -2208,6 +2265,7 @@ const weaponData = {
   },
   "Stryk 7": {
     Class: "Pistol",
+    name:"Stryk 7",
     DamageDistanceArray: [
       {
         Damage: 44.0,
@@ -2249,6 +2307,8 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 17,
+    EAmmoLoaded:31,
+    QAmmoLoaded:13,
     AmmoInventoryMax: 85,
     AmmoInventory: 68,
     AmmoPickup: {
@@ -2365,6 +2425,7 @@ const weaponData = {
   },
   "Sforza Bison": {
     Class: "Revolver",
+    name:"Sforza Bison",
     DamageDistanceArray: [
       {
         Damage: 65.0,
@@ -2477,6 +2538,7 @@ const weaponData = {
   },
   "J&M Castigo 44": {
     Class: "Revolver",
+    name:"J&M Castigo 44",
     DamageDistanceArray: [
       {
         Damage: 90.0,
@@ -2628,6 +2690,7 @@ const weaponData = {
   // Syntax Error
   "FIK 22 TLR": {
     Class: "Marksman Rifle",
+    name:"FIK 22 TLR",
     DamageDistanceArray: [
       {
         Damage: 25.0,
@@ -2643,11 +2706,18 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 25,
+    EAmmoLoaded:35,
+    CAmmoLoaded:15,
+    QAmmoLoaded:25,
     AmmoInventoryMax: 125,
     AmmoInventory: 75,
     AmmoPickup: {
       Min: 7.0,
       Max: 9.0,
+    },
+    CAmmoPickup: {
+      Min: 9.0,
+      Max: 11.0,
     },
     CriticalDamageMultiplierDistanceArray: [
       {
@@ -2796,6 +2866,7 @@ const weaponData = {
   },
   "FSA-12G": {
     Class: "Shotgun",
+    name:"FSA-12G",
     DamageDistanceArray: [
       {
         Damage: 20.0,
@@ -2818,11 +2889,19 @@ const weaponData = {
         Distance: 10000.0,
       },
     ],
+    AmmoLoaded:10,
+    EAmmoLoaded:15,
+    CAmmoLoaded:5,
+    QAmmoLoaded:10,
     AmmoInventoryMax: 50,
     AmmoInventory: 30,
     AmmoPickup: {
       Min: 3.0,
       Max: 4.0,
+    },
+    CAmmoPickup: {
+      Min: 4.0,
+      Max: 5.0,
     },
     CriticalDamageMultiplierDistanceArray: [
       {
@@ -2921,6 +3000,7 @@ const weaponData = {
   },
   "WAR-45": {
     Class: "SMG",
+    name:"WAR-45",
     DamageDistanceArray: [
       {
         Damage: 35.0,
@@ -2940,10 +3020,17 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 25,
-    AmmoInventoryMax: 175,
+    EAmmoLoaded:35,
+    CAmmoLoaded:15,
+    QAmmoLoaded:25,
+    AmmoInventoryMax: 250,
     AmmoPickup: {
       Min: 5.0,
       Max: 7.0,
+    },
+    CAmmoPickup: {
+      Min: 7.0,
+      Max: 9.0,
     },
     CriticalDamageMultiplierDistanceArray: [
       {
@@ -3080,8 +3167,10 @@ const weaponData = {
     ReloadEmptyNotifyTime: 1.9945579,
     ReloadNotifyTime: 1.9000001,
   },
- "MX63": {
+  // Free weapon
+  "MX63": {
     Class: "LMG",
+    name:"MX63",
     DamageDistanceArray: [
       {
         Damage: 28,
@@ -3240,15 +3329,17 @@ const weaponData = {
       },
     },
     DeviationHipFireMultiplier: 1.0,
-    TargetingTransitionTime: 0.35,
-    EquipNotifyTime: 0.40000004,
-    UnequipNotifyTime: 0.53333336,
+    TargetingTransitionTime: 0.75,
+    EquipNotifyTime: 0.46666664,
+    UnequipNotifyTime: 0.6666667,
     SprintExitNotifyTime: 0.2521767,
-    ReloadEmptyNotifyTime: 2.6666667,
-    ReloadNotifyTime: 2.3333333,
+    ReloadEmptyNotifyTime: 2.8333333,
+    ReloadNotifyTime: 2.6666665,
   },
+  // Boys in Blue
   "RG5": {
     Class: "Assault Rifle",
+    name:"RG5",
     DamageDistanceArray: [
       {
         Damage: 42.0,
@@ -3290,11 +3381,18 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 20,
+    EAmmoLoaded:35,
+    CAmmoLoaded:15,
+    QAmmoLoaded:20,
     AmmoInventoryMax: 200,
     AmmoInventory: 80,
     AmmoPickup: {
       Min: 5.0,
       Max: 7.0,
+    },
+    CAmmoPickup: {
+      Min: 7.0,
+      Max: 9.0,
     },
     ArmorPenetration: 1.2,
     RoundsPerMinute: 600.0,
@@ -3430,6 +3528,7 @@ const weaponData = {
   },
   "ATK-7": {
     Class: "SMG",
+    name:"ATK-7",
     DamageDistanceArray: [
       {
         Damage: 31.3,
@@ -3475,11 +3574,18 @@ const weaponData = {
       },
     ],
     AmmoLoaded: 30,
+    EAmmoLoaded:40,
+    CAmmoLoaded:15,
+    QAmmoLoaded:30,
     AmmoInventoryMax: 300,
     AmmoInventory: 120,
     AmmoPickup: {
       Min: 7.0,
       Max: 9.0,
+    },
+    CAmmoPickup: {
+      Min: 9.0,
+      Max: 11.0,
     },
     ArmorPenetration: 1.1,
     RoundsPerMinute: 800.0,
@@ -3597,6 +3703,7 @@ const weaponData = {
   },
   "Bullkick 500": {
     Class: "Revolver",
+    name:"Bullkick 500",
     DamageDistanceArray: [
       {
         Damage: 150.0,
