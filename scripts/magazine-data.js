@@ -5,7 +5,7 @@ function initialiseMagazineData(selectedWeapon) {
   var length = select.options.length;
     for (i = length-1; i >= 0; i--) {
       select.options[i] = null;
-    }
+    } 
   switch(weaponmag){
     case "MX63" :
     case "Mosconi 12 Classic" :
